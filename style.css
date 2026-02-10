@@ -21,3 +21,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.app{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+}
