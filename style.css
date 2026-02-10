@@ -27,3 +27,24 @@ body{
     padding: 20px;
     text-align: center;
 }
+.search {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.search input {
+  flex: 1;
+  padding: 10px;
+  border-radius: var(--radius);
+  border: none;
+}
+
+.search button {
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  background-color: var(--accent-color);
+  font-weight: bold;
+}
