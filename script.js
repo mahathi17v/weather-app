@@ -1,5 +1,9 @@
+console.log("JS file loaded");
 const cityInput = document.getElementById("cityInput");
 const searchBtn = document.getElementById("searchBtn");
+searchBtn.addEventListener("click", () => {
+  console.log("Search button clicked");
+});
 const weatherCard = document.getElementById("weatherCard");
 
 const API_KEY = "YOUR_API_KEY";
@@ -21,3 +25,4 @@ async function getWeather(city) {
     weatherCard.innerHTML = error.message;
   }
 }
+
