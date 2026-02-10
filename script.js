@@ -8,7 +8,7 @@ searchBtn.addEventListener("click", () => {
 });
 const weatherCard = document.getElementById("weatherCard");
 
-const API_KEY = "1268b67972b5fc6db9d443db899c87ae";
+const API_KEY = "YOUR_API_KEY";
 
 async function getWeather(city) {
   weatherCard.style.display = "block";
